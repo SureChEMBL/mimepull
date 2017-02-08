@@ -94,9 +94,9 @@
     </licenses>
 
     <scm>
-        <connection>scm:svn:https://svn.java.net/svn/mimepull~svn/tags/mimepull-1.9.2</connection>
-        <developerConnection>scm:svn:https://svn.java.net/svn/mimepull~svn/tags/mimepull-1.9.2</developerConnection>
-        <url>http://java.net/projects/mimepull/sources/svn/show/tags/mimepull-1.9.2</url>
+        <connection>scm:svn:https://svn.java.net/svn/mimepull~svn/tags/mimepull-1.9.3</connection>
+        <developerConnection>scm:svn:https://svn.java.net/svn/mimepull~svn/tags/mimepull-1.9.3</developerConnection>
+        <url>http://java.net/projects/mimepull/sources/svn/show/tags/mimepull-1.9.3</url>
     </scm>
 
     <issueManagement>
@@ -276,6 +276,31 @@
                 <configuration>
                     <retryFailedDeploymentCount>10</retryFailedDeploymentCount>
                 </configuration>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-javadoc-plugin</artifactId>
+                <version>2.9</version>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-source-plugin</artifactId>
+                <version>2.2.1</version>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-release-plugin</artifactId>
+                <version>2.1</version>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-gpg-plugin</artifactId>
+                <version>1.1</version>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-enforcer-plugin</artifactId>
+                <version>1.0.1</version>
             </plugin>
         </plugins>
     </build>

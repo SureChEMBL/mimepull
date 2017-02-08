@@ -94,9 +94,9 @@
     </licenses>
 
     <scm>
-        <connection>scm:svn:https://svn.java.net/svn/mimepull~svn/tags/mimepull-1.9.6</connection>
-        <developerConnection>scm:svn:https://svn.java.net/svn/mimepull~svn/tags/mimepull-1.9.6</developerConnection>
-        <url>http://java.net/projects/mimepull/sources/svn/show/tags/mimepull-1.9.6</url>
+        <connection>scm:svn:https://svn.java.net/svn/mimepull~svn/tags/mimepull-1.9.7</connection>
+        <developerConnection>scm:svn:https://svn.java.net/svn/mimepull~svn/tags/mimepull-1.9.7</developerConnection>
+        <url>http://java.net/projects/mimepull/sources/svn/show/tags/mimepull-1.9.7</url>
     </scm>
 
     <issueManagement>

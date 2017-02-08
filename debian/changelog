@@ -1,3 +1,9 @@
+mimepull-java (1.9.1-1) unstable; urgency=medium
+
+  * Bump version.
+
+ -- Yury Zavarin <yzavarin@ebi.ac.uk>  Wed, 08 Feb 2017 16:44:12 +0000
+
 mimepull-java (1.9-1) unstable; urgency=medium
 
   * Initial release.

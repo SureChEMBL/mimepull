@@ -1,7 +1,7 @@
 /*
  * DO NOT ALTER OR REMOVE COPYRIGHT NOTICES OR THIS HEADER.
  *
- * Copyright (c) 1997-2012 Oracle and/or its affiliates. All rights reserved.
+ * Copyright (c) 1997-2015 Oracle and/or its affiliates. All rights reserved.
  *
  * The contents of this file are subject to the terms of either the GNU
  * General Public License Version 2 only ("GPL") or the Common Development
@@ -52,6 +52,9 @@ import java.util.Collection;
  * @author Kohsuke Kawaguchi
  */
 final class FinalArrayList<T> extends ArrayList<T> {
+
+    private static final long serialVersionUID = 7996571518730043311L;
+
     public FinalArrayList(int initialCapacity) {
         super(initialCapacity);
     }

@@ -1,7 +1,7 @@
 /*
  * DO NOT ALTER OR REMOVE COPYRIGHT NOTICES OR THIS HEADER.
  *
- * Copyright (c) 1997-2012 Oracle and/or its affiliates. All rights reserved.
+ * Copyright (c) 1997-2015 Oracle and/or its affiliates. All rights reserved.
  *
  * The contents of this file are subject to the terms of either the GNU
  * General Public License Version 2 only ("GPL") or the Common Development
@@ -44,6 +44,7 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
+import java.nio.charset.StandardCharsets;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
@@ -85,11 +86,7 @@ class FactoryFinder {
         String factoryClassName;
         BufferedReader rd = null;
         try {
-            try {
-                rd = new BufferedReader(new InputStreamReader(is, "UTF-8"));
-            } catch (java.io.UnsupportedEncodingException e) {
-                rd = new BufferedReader(new InputStreamReader(is));
-            }
+            rd = new BufferedReader(new InputStreamReader(is, StandardCharsets.UTF_8));
             try {
                 factoryClassName = rd.readLine();
             } catch (IOException x) {

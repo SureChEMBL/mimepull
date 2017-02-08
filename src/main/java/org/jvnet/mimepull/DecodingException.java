@@ -1,7 +1,7 @@
 /*
  * DO NOT ALTER OR REMOVE COPYRIGHT NOTICES OR THIS HEADER.
  *
- * Copyright (c) 1997-2012 Oracle and/or its affiliates. All rights reserved.
+ * Copyright (c) 1997-2015 Oracle and/or its affiliates. All rights reserved.
  *
  * The contents of this file are subject to the terms of either the GNU
  * General Public License Version 2 only ("GPL") or the Common Development
@@ -54,9 +54,12 @@ import java.io.IOException;
 public final class DecodingException extends IOException {
 
     /**
-     * Constructor
+     * Constructs a {@code DecodingException} with the specified detail message.
+     *
+     * @param message
+     *        The detail message
      */
-    public DecodingException(String s) {
-	super(s);
+    public DecodingException(String message) {
+	    super(message);
     }
 }

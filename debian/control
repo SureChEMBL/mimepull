@@ -1,0 +1,20 @@
+Source: mimepull-java
+Section: java
+Priority: optional
+Maintainer: Yury Zavarin <yzavarin@ebi.ac.uk>
+Build-Depends:
+ debhelper (>= 9),
+ default-jdk (>= 1.6),
+ junit (>= 3.8.1),
+ libmaven-bundle-plugin-java,
+ libmaven-compiler-plugin-java,
+ maven-debian-helper (>= 1.5),
+Build-Depends-Indep:
+Standards-Version: 3.9.7
+
+Package: libmimepull-java
+Architecture: all
+Depends:
+ ${misc:Depends},
+ ${maven:Depends},
+Description: MIME streaming extension

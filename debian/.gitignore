@@ -1,0 +1,11 @@
+debhelper-build-stamp
+files
+libmimepull-java.debhelper.log
+libmimepull-java.poms
+libmimepull-java.substvars
+libmimepull-java/
+maven-repo/
+maven.cleanIgnoreRules
+maven.ignoreRules
+maven.publishedRules
+stamp-poms-patched

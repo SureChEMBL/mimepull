@@ -1,3 +1,9 @@
+mimepull-java (1.9.7-2) unstable; urgency=medium
+
+  * Added libmaven-enforcer-plugin-java to build dependencies.
+
+ -- Yury Zavarin <yzavarin@ebi.ac.uk>  Sun, 02 Apr 2017 02:34:55 +0100
+
 mimepull-java (1.9.7-1) unstable; urgency=medium
 
   * Bump version.

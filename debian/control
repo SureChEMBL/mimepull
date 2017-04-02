@@ -8,6 +8,7 @@ Build-Depends:
  junit (>= 3.8.1),
  libmaven-bundle-plugin-java,
  libmaven-compiler-plugin-java,
+ libmaven-enforcer-plugin-java (>= 1.0.1),
  libsurefire-java (>= 2.12.2),
  maven-debian-helper (>= 1.5),
 Build-Depends-Indep:
